@@ -1,0 +1,83 @@
+/* Mobile first approach */
+
+/* Default styles */
+header{
+
+
+    padding: 1em;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+header h1 {
+    font-size: 4em;
+}
+header h2 {
+    font-size: 3em;
+}
+header h3 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("light_mode.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 20px;
+    color: #3E3E3E;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #5e4545;
+}
+
+
+@media (max-width: 600px) {
+    header {
+        max-width: 100%;
+    }
+
+
+}
+
+.container{
+    display: inline-block;
+}
+
+.typed-out{
+    overflow: hidden;
+    border-right: .10em solid #2c2c2c;
+    white-space: nowrap;
+    animation:
+            typing 2s steps(20, end) forwards;
+    width: 0;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+#about {
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(106, 153, 166, 0.85);
+}
