@@ -1,10 +1,9 @@
 /* Mobile first approach */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400&display=swap');
 
 /* Default styles */
 header{
 
-
-    padding: 1em;
     font-weight: 400;
     text-align: center;
 
@@ -22,8 +21,9 @@ header h3 {
 
 nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 body {
@@ -33,6 +33,7 @@ body {
     font-family: 'Red Hat Mono', monospace;
     font-size: 20px;
     color: #3E3E3E;
+    margin: 0;
 
 }
 
@@ -42,19 +43,36 @@ nav li {
 }
 
 nav a {
-    color: #333;
+    color: #000000;
     text-decoration: none;
 }
 
-nav a:hover {
-    color: #5e4545;
-}
 
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     header {
         max-width: 100%;
     }
+
+    #about p{
+        font-size: 4.5vw;
+    }
+
+    #about h2 {
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 11vw;
+    }
+    header h2 {
+        font-size: 10vw;
+    }
+    header h3 {
+        font-size: 8vw;
+    }
+
 
 
 }
@@ -68,7 +86,8 @@ nav a:hover {
     border-right: .10em solid #2c2c2c;
     white-space: nowrap;
     animation:
-            typing 2s steps(20, end) forwards;
+            typing 2s steps(20, end) forwards,
+            blink .8s infinite;
     width: 0;
 }
 @keyframes typing {
@@ -76,8 +95,18 @@ nav a:hover {
     to { width: 100% }
 }
 
+@keyframes blink {
+    from { border-color: transparent }
+    to { border-color: #2c2c2c; }
+}
+
 #about {
-    width: 100%;
+    max-width: 100%;
     padding: 30px;
     background-color: rgba(106, 153, 166, 0.85);
+}
+
+.dark-mode {
+    background-image: url("dark_mode.png");
+    color: #EAEAEA;
 }

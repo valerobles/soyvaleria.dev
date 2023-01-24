@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <title>My Portfolio</title>
     <link href="stylesheet.css" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400&display=swap');
-    </style>
 </head>
 <body>
 <header>
@@ -13,6 +12,7 @@
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
+            <img src="brightness.png" alt="mode" id="mode" width="22px" height="22px" style="margin-top: 1px">
         </ul>
     </nav>
     <div class="container">
@@ -20,7 +20,7 @@
     </div>
 
     <br/>
-    <h2>My name is</h2>
+    <h2 id="intro">My name is</h2>
     <h2>Valeria</h2>
     <br/>
     <h3>I am a junior software engineer</h3>
@@ -45,5 +45,27 @@
         </ul>
     </section>
 </main>
+<script>
+
+
+    let img = document.getElementById("mode");
+    img.addEventListener("click", function(){
+        this.src = (this.src === "brightness.png") ? "brightness.png" : "moon.png";
+        let element = document.body;
+        element.classList.toggle("dark-mode");
+
+    });
+
+</script>
+<script>
+    const introductionText = ["My name is", "Me llamo", "Mein Name ist", "Mon nom est","我的名字是"];
+    let index = 0;
+    setInterval(myTimer, 2800);
+    function myTimer() {
+        document.getElementById("intro").innerHTML = introductionText[index];
+        index = (index + 1) % introductionText.length;
+    }
+</script>
 </body>
+
 </html>
