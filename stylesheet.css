@@ -10,13 +10,13 @@ header{
 }
 
 header h1 {
-    font-size: 4em;
+    font-size: 8vw;
 }
 header h2 {
-    font-size: 3em;
+    font-size: 5vw;
 }
 header h3 {
-    font-size: 2.5em;
+    font-size: 3.5vw;
 }
 
 nav ul {
@@ -31,7 +31,7 @@ body {
     background-size: cover;
     background-repeat: repeat-y;
     font-family: 'Red Hat Mono', monospace;
-    font-size: 20px;
+    font-size: 2.5vw;
     color: #3E3E3E;
     margin: 0;
 
@@ -40,6 +40,7 @@ body {
 nav li {
     display: inline-block;
     margin-right: 1em;
+    font-size: 1.8vw;
 }
 
 nav a {
@@ -47,18 +48,41 @@ nav a {
     text-decoration: none;
 }
 
+#mode{
+    height: 2.5%;
+    width: 2.5%;
+}
+
+@media screen and (max-width: 860px) {
+    #mode {
+        height: 3.5%;
+        width: 3.5%;
+    }
+
+}
+
 
 
 @media only screen and (max-width: 600px) {
+    #mode {
+        height: 4.2%;
+        width: 4.2%;
+    }
+
+
     header {
         max-width: 100%;
     }
 
-    #about p{
-        font-size: 4.5vw;
+    nav li {
+        font-size: 3vw;
     }
 
-    #about h2 {
+    #about_first p{
+        font-size: 3.5vw;
+    }
+
+    #about_first h2 {
         font-size: 6vw;
         text-align: center;
     }
@@ -100,13 +124,29 @@ nav a {
     to { border-color: #2c2c2c; }
 }
 
-#about {
+#about_first {
     max-width: 100%;
     padding: 30px;
-    background-color: rgba(106, 153, 166, 0.85);
+    background-color: rgba(106, 153, 166, 0.8);
 }
 
-.dark-mode {
+.dark-mode-body {
     background-image: url("dark_mode.png");
     color: #EAEAEA;
+}
+
+#inside_about_second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about_second {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.50);
+
+}
+
+#about_second p {
+    font-size: 3.5vw;
 }

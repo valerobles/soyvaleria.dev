@@ -12,7 +12,7 @@
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
-            <img src="brightness.png" alt="mode" id="mode" width="22px" height="22px" style="margin-top: 1px">
+            <img src="brightness.png" alt="mode" id="mode"style="margin-top: 1px">
         </ul>
     </nav>
     <div class="container">
@@ -28,12 +28,28 @@
 
 <main>
     <section id="about">
-        <h2>About Me</h2>
-        <p>I am a fresh computer science graduate with a Bachelors of Science degree. I graduated from FHNW in Switzerland with a major in
-            Computer Science and specialization in Design and Management. My background in vocational education of economics gives me a unique perspective
-            on how technology can be used to improve business processes and operations.</p>
-        <p>During my studies, I gained experience in various programming languages and technologies, and developed a passion for creating efficient
-            and user-friendly software. I am excited to put my skills and knowledge to use in a professional setting and continue learning and growing as a software developer.</p>
+        <div id="about_first">
+            <h2>About Me</h2>
+            <p>I am a fresh computer science graduate with a Bachelors of Science degree. I graduated from FHNW in Switzerland with a major in
+                Computer Science and specialization in Design and Management. </p>
+            <p>During my studies, I gained experience in various programming languages and technologies, and developed a passion for creating functional
+                and user-friendly software. I am excited to put my skills and knowledge to use in a professional setting and continue learning and growing as a software engineer.</p>
+
+        </div>
+        <div id="about_second">
+            <div id="inside_about_second">
+                <p>
+                    As a proud member of the Hispanic community, I bring a rich cultural perspective to everything I do.
+                    With a passion for diversity and a love for immersing myself in different cultures, I am always seeking new challenges and opportunities to grow.
+                </p>
+                <img src="moi_4.png" height="45%" width="45%">
+            </div>
+            <p>
+                Currently based in Switzerland, I am open to exploring the world and creating amazing work in new and diverse environments.
+                From the mountains of Switzerland to the beaches of the Caribbean, let's create something truly unique together.
+            </p>
+
+        </div>
     </section>
 
     <section id="projects">
@@ -50,9 +66,19 @@
 
     let img = document.getElementById("mode");
     img.addEventListener("click", function(){
+        let body = document.body;
+        let section_1 = document.getElementById("about_first");
+        let section_2 = document.getElementById("about_second")
+        body.classList.toggle("dark-mode-body");
+        if(body.classList.contains("dark-mode-body")){
+            section_1.style.backgroundColor = "rgba(46,69,75,0.85)";
+            section_2.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+        } else {
+            section_1.style.backgroundColor = "rgba(106, 153, 166, 0.8)";
+            section_2.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
+        }
+
         this.src = (this.src === "brightness.png") ? "brightness.png" : "moon.png";
-        let element = document.body;
-        element.classList.toggle("dark-mode");
 
     });
 
