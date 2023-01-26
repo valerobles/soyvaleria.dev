@@ -12,7 +12,8 @@
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
-            <img src="moon.png" alt="mode" id="mode"style="margin-top: 1px">
+            <li><a href="#contact">Contact</a></li>
+            <img src="moon.png" alt="mode" id="mode" style="margin-top: 1px">
         </ul>
     </nav>
     <div class="container">
@@ -29,8 +30,7 @@
         <div id="about_first">
             <h2>About Me</h2>
             <p>I am a fresh computer science graduate with a Bachelors of Science degree. I graduated from FHNW in Switzerland with a major in
-                Computer Science and specialization in Design and Management. </p>
-            <p>During my studies, I gained experience in various programming languages and technologies, and developed a passion for creating functional
+                Computer Science and specialization in Design and Management. During my studies, I gained experience in various programming languages and technologies, and developed a passion for creating functional
                 and user-friendly software. I am excited to put my skills and knowledge to use in a professional setting and continue learning and growing as a software engineer.</p>
             <div id="about_second">
                 <div id="inside_about_second">
@@ -74,90 +74,228 @@
 
     <section id="projects">
         <h2>My Projects</h2>
-        <div class="projects_list">
-        <div class="tile">
-            <h2>Food Buddy App</h2>
-            <div class="tile_images">
-                <img src="food_buddy_2.png"/>
-                <img src="food_buddy.png"/>
-            </div>
-            <div class="text">
-                <p>Food Buddy is an Android app that connects individuals who don't want to eat alone. Create events,
-                    invite others to join, choose who can join and never eat alone again. Perfect for people new to an area or looking to expand their social circle.
-                    User-friendly interface, easy to use and helps make new friends over a shared love for good food. </p>
-                <h4>Tech Stack</h4>
-                <p>Kotlin Jetpack Compose</p>
-                <p>MQTT</p>
-                <br>
+        <div id="projects_big">
+            <div class="projects_list">
+                <div class="tile">
+                    <h2>Food Buddy App</h2>
+                    <div class="tile_images">
+                        <img src="food_buddy_2.png"/>
+                        <img src="food_buddy.png"/>
+                    </div>
+                    <div class="text">
+                        <p>Food Buddy is an Android app that connects individuals who don't want to eat alone. Create events,
+                            invite others to join, choose who can join and never eat alone again. Perfect for people new to an area or looking to expand their social circle.
+                            User-friendly interface, easy to use and helps make new friends over a shared love for good food. </p>
+                        <div class="bottom_link">
+                            <h2>Tech Stack:</h2>
+                            <p>Kotlin Jetpack Compose</p>
+                            <p>MQTT</p>
+                            <a href="https://github.com/valerobles"><img src="github-mark.png" class="github"> </a>
 
-                <a href="#"><img src="github-mark.png" style="height: 10%; width: 10%"> </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="tile">
+                    <h2>Blockchain Based Game with Zero Knowledge Proofs</h2>
+                    <img src="blockchain.png" style="height: auto"/>
+                    <div class="text">
+                        <p>This project is a blockchain-based game that utilizes StarkNet to scale the Ethereum blockchain.
+                            As a proof of concept, the game features Pokemon NFTs that can fight against each other. </p>
+                        <p>
+                            By using StarkNet, the game is able to take advantage of the security and immutability of the Ethereum blockchain while also providing a scalable, cheaper and more efficient gaming experience.
+                            The game is built on smart contracts and uses NFTs to represent the Pokemon characters, making each one unique and collectible.
+                            This project is a proof of concept that showcases the potential of layer 2 scaling solutions and the use of blockchain technology in gaming. </p>
+                        <div class="bottom_link">
+                            <h2>Tech Stack:</h2>
+                            <p>Solidity</p>
+                            <p>StarkNet/Cairo</p>
+                            <p>React</p>
+                            <a href="https://github.com/valerobles/blockchain_based_game"><img src="github-mark.png" class="github"> </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="tile">
+                    <h2>Space Invaders</h2>
+                    <div>
+                        <img src="space_invaders.png" style="height: 50%; width: 50%;margin-bottom: 7px"/>
+                        <img src="space_invaders_2.png" style="height: 50%; width: 50%"/>
+                    </div>
+                    <div class="text">
+                        <p>This new adaptation of the classic Space Invaders game stays true to its retro roots while adding a twist to the
+                            final round. Players will feel the nostalgia as they defend their planet from the alien invasion, using their picked laser cannon to blast their
+                            way through wave after wave of alien ships.</p>
+                        <h2>Tech Stack:</h2>
+                        <p>Processing</p>
+                        <a href="https://github.com/valerobles"><img src="github-mark.png" class="github"> </a>
+                    </div>
+                </div>
+
+
+                <div class="tile">
+                    <h2>Deezer Music App</h2>
+                    <div class="tile_images">
+                        <img src="deezer.png"/>
+                        <img src="deezer_2.png">
+                    </div>
+                    <div class="text">
+                        <p>This music app allows users to search and play music,
+                            create a favorites list and discover new songs and artists. It features a user-friendly interface
+                            and a search function for easy access to a wide range of music. Additionally, it has a favorites list feature for
+                            convenient access to preferred songs and artists. The app is designed for a seamless experience</p>
+
+                        <h2>Tech Stack:</h2>
+                        <p>Kotlin Jetpack Compose</p>
+                        <p>Deezer API</p>
+                        <a href="https://github.com/valerobles/deezer_app"><img src="github-mark.png"  class="github"> </a>
+
+
+                    </div>
+                </div>
+
+
             </div>
 
         </div>
 
 
-            <div class="tile">
-                <h2>Blockchain Based Game with Zero Knowledge Proofs</h2>
-                <img src="blockchain.png" style="height: auto"/>
-                <div class="text">
-                    <p>This project is a blockchain-based game that utilizes StarkNet to scale the Ethereum blockchain.
-                        As a proof of concept, the game features Pokemon NFTs that can fight against each other. </p>
-                    <p>
-                        By using StarkNet, the game is able to take advantage of the security and immutability of the Ethereum blockchain while also providing a scalable, cheaper and more efficient gaming experience.
-                        The game is built on smart contracts and uses NFTs to represent the Pokemon characters, making each one unique and collectible.
-                        This project is a proof of concept that showcases the potential of layer 2 scaling solutions and the use of blockchain technology in gaming. </p>
-                    <h3>Tech Stack</h3>
+        <ul id="gallery">
+            <li class="projects">
+                <h3>Food Buddy App</h3>
+                <br>
+                <div class="gallery_tile">
+                    <div class="tile_images_">
+                        <img src="food_buddy_2.png"/>
+                        <img src="food_buddy.png"/>
+                    </div>
+                    <div class="text">
+                        <p>Food Buddy is an Android app that connects individuals who don't want to eat alone. Create events,
+                            invite others to join, choose who can join and never eat alone again. Perfect for people new to an area or looking to expand their social circle.
+                            User-friendly interface, easy to use and helps make new friends over a shared love for good food. </p>
+
+                            <h4>Tech Stack:</h4>
+                            <p>Kotlin Jetpack Compose</p>
+                            <p>MQTT</p>
+                            <a href="https://github.com/valerobles"><img src="github-mark.png" class="github"> </a>
+
+
+
+                    </div>
+
+                </div>
+
+
+            </li>
+            <li class="projects">
+                <h3>Blockchain Based Game with Zero Knowledge Proofs</h3>
+                <div class="gallery_tile">
+                    <img src="blockchain.png" style="width: 20%; height: 20%" />
+                    <div class="text">
+                        <p>This project is a blockchain-based game that utilizes StarkNet to scale the Ethereum blockchain.
+                            As a proof of concept, the game features Pokemon NFTs that can fight against each other. </p>
+                        <p>
+                            By using StarkNet, the game is able to take advantage of the security and immutability of the Ethereum blockchain while also providing a scalable, cheaper and more efficient gaming experience.
+                            The game is built on smart contracts and uses NFTs to represent the Pokemon characters, making each one unique and collectible.
+                            This project is a proof of concept that showcases the potential of layer 2 scaling solutions and the use of blockchain technology in gaming. </p>
+                        <h4>Tech Stack:</h4>
                         <p>Solidity</p>
                         <p>StarkNet/Cairo</p>
                         <p>React</p>
-                    <br>
-                    <a href="#"><img src="github-mark.png" style="height: 10%; width: 10%"> </a>
+                        <a href="https://github.com/valerobles/blockchain_based_game"><img src="github-mark.png" class="github"> </a>
+
+                    </div>
+
                 </div>
-            </div>
+
+            </li>
+            <li class="projects">
+                <h3>Space Invaders</h3>
+                <br>
+                <div class="gallery_tile">
+                    <div>
+                        <img src="space_invaders.png" style="height: 55%; width: 55%; margin-bottom: 7px"/>
+                        <img src="space_invaders_2.png" style="height: 55%;width: 55%"/>
+                    </div>
+
+                    <div class="text">
+                        <p>This new adaptation of the classic Space Invaders game stays true to its retro roots while adding a twist to the
+                            final round. Players will feel the nostalgia as they defend their planet from the alien invasion, using their picked laser cannon to blast their
+                            way through wave after wave of alien ships.</p>
+                        <h4>Tech Stack:</h4>
+                        <p>Processing</p>
+                        <a href="https://github.com/valerobles"><img src="github-mark.png"  class="github"> </a>
+                    </div>
 
 
-
-            <div class="tile">
-                <h2>Space Invaders</h2>
-                <div>
-                    <img src="space_invaders.png" style="height: 50%; width: 50%;margin-bottom: 7px"/>
-                    <img src="space_invaders_2.png" style="height: 50%; width: 50%"/>
                 </div>
-                <div class="text">
-                    <p>This new adaptation of the classic Space Invaders game stays true to its retro roots while adding a twist to the
-                        final round. Players will feel the nostalgia as they defend their planet from the alien invasion, using their picked laser cannon to blast their
-                        way through wave after wave of alien ships.</p>
-                    <h3>Tech Stack</h3>
-                    <p>Processing</p>
-                    <br>
 
-                    <a href="#"><img src="github-mark.png" style="height: 10%; width: 10%"> </a>
+            </li>
+            <li class="projects">
+                <h3>Deezer Music App</h3>
+                <br>
+                <div class="gallery_tile">
+                    <div class="tile_images_">
+                        <img src="deezer.png"/>
+                        <img src="deezer_2.png">
+                    </div>
+                    <div class="text">
+                        <p>This music app allows users to search and play music,
+                            create a favorites list and discover new songs and artists. It features a user-friendly interface
+                            and a search function for easy access to a wide range of music. Additionally, it has a favorites list feature for
+                            convenient access to preferred songs and artists. The app is designed for a seamless experience</p>
+
+                        <h4>Tech Stack:</h4>
+                        <p>Kotlin Jetpack Compose</p>
+                        <p>Deezer API</p>
+                        <a href="https://github.com/valerobles/deezer_app" ><img src="github-mark.png" class="github"> </a>
+
+
+                    </div>
+
+
                 </div>
-            </div>
 
 
-            <div class="tile">
-                <h2>Deezer Music App</h2>
-                <div class="tile_images">
-                 <img src="deezer.png"/>
-                 <img src="deezer_2.png">
-                </div>
-                <div class="text">
-                    <p>This music app allows users to search and play music,
-                        create a favorites list and discover new songs and artists. It features a user-friendly interface
-                        and a search function for easy access to a wide range of music. Additionally, it has a favorites list feature for
-                        convenient access to preferred songs and artists. The app is designed for a seamless experience</p>
-                    <h3>Tech Stack</h3>
-                    <p>Kotlin Jetpack Compose</p>
-                    <p>Deezer API</p>
-                    <br>
-                    <a href="#"><img src="github-mark.png" style="height: 10%; width: 10%"> </a>
-                </div>
-            </div>
+            </li>
+        </ul>
 
 
-        </div>
+
     </section>
+    <section id="contact">
+        <h2>Contact me</h2>
+        <div style="margin: auto; text-align:center; width: 1000px">
+                <h3>Want to work together or have any questions?</h3>
+
+                 <h3><a href="mailto:valeria.roblesgarzon@gmail.com" class="button" >Say hello :)</a></h3>
+
+                <img src="me.png" height="50%">
+        </div>
+
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p>Created by Valeria</p>
+        <div class="footer-image">
+            <a href="https://www.linkedin.com/in/valeria-robles-garz%C3%B3n-54b653159/"></a><img src="linkedin.png" alt="footer image">
+        </div>
+    </footer>
+
+
+
 </main>
 <script>
 
@@ -167,16 +305,40 @@
 
         let body = document.body;
         let section_1 = document.getElementById("about_first");
-        let projects = document.getElementById("projects")
+        let projects = document.getElementById("projects_big")
+        let gallery = document.querySelectorAll(".projects");
+        let githubIcon = document.querySelectorAll(".github")
+
         body.classList.toggle("dark-mode-body");
         if(body.classList.contains("dark-mode-body")){
-            section_1.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
-            projects.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+            section_1.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
+            projects.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
             img.src = "brightness.png";
+            for (let i = 0; i < gallery.length; i++) {
+                    gallery[i].style.background = "rgba(0, 0, 0, 0.7)";
+
+                }
+
+            for (let i = 0; i < githubIcon.length; i++) {
+                githubIcon[i].src = "github-mark-white.png";
+
+                }
+
         } else {
             section_1.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
             projects.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
             img.src = "moon.png";
+            for (let i = 0; i < gallery.length; i++) {
+                gallery[i].style.background = "rgba(255, 255, 255, 0.7)";
+
+            }
+
+            for (let i = 0; i < githubIcon.length; i++) {
+                githubIcon[i].src = "github-mark.png";
+
+            }
+
+
         }
 
 
@@ -184,6 +346,7 @@
     });
 
 </script>
+
 <script>
     const introductionText = ["My name is", "Me llamo", "Mein Name ist", "Mon nom est","我的名字是"];
     let index = 0;
@@ -193,6 +356,40 @@
         index = (index + 1) % introductionText.length;
     }
 </script>
+
+
+<script>
+    const slider = document.querySelector('.gallery');
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    slider.addEventListener('mousedown', e => {
+        isDown = true;
+        slider.classList.add('active');
+        startX = e.pageX - slider.offsetLeft;
+        scrollLeft = slider.scrollLeft;
+    });
+    slider.addEventListener('mouseleave', _ => {
+        isDown = false;
+        slider.classList.remove('active');
+    });
+    slider.addEventListener('mouseup', _ => {
+        isDown = false;
+        slider.classList.remove('active');
+    });
+    slider.addEventListener('mousemove', e => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - slider.offsetLeft;
+        const SCROLL_SPEED = 3;
+        const walk = (x - startX) * SCROLL_SPEED;
+        slider.scrollLeft = scrollLeft - walk;
+    });
+
+</script>
+
+
 </body>
 
 </html>
