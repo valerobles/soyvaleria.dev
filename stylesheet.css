@@ -6,17 +6,27 @@ header{
 
     font-weight: 400;
     text-align: center;
+    margin: 10px 10px 60px 10px;
 
 }
 
 header h1 {
-    font-size: 8vw;
+    font-size: 7.2vw;
+
 }
 header h2 {
-    font-size: 5vw;
+    font-size: 4.5vw;
 }
 header h3 {
     font-size: 3.5vw;
+}
+
+h3 {
+    font-size: 2.9vw;
+}
+
+p {
+    font-size: 2.0vw;
 }
 
 nav ul {
@@ -28,8 +38,8 @@ nav ul {
 
 body {
     background-image: url("light_mode.png");
-    background-size: cover;
-    background-repeat: repeat-y;
+    background-size: auto;
+    background-repeat: repeat;
     font-family: 'Red Hat Mono', monospace;
     font-size: 2.5vw;
     color: #3E3E3E;
@@ -53,6 +63,131 @@ nav a {
     width: 2.5%;
 }
 
+#about{
+    display: flex;
+}
+
+
+#about_first {
+    max-width: 100%;
+    padding: 30px;
+    background-color: rgba(106, 153, 166, 0.8);
+}
+
+
+#inside_about_second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about_second {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.50);
+
+}
+
+
+
+#skills{
+    margin: 20px;
+    text-align: center;
+}
+
+#skills_container{
+    display: flex;
+}
+
+#skills_1{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgba(183, 210, 189, 0.73);
+}
+
+#skills_2{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgba(144, 173, 239, 0.75);
+}
+
+#skills_3{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgba(233, 214, 214, 0.87);
+}
+
+
+
+
+
+
+
+#projects {
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+
+.projects_list
+{
+    margin:50px auto 0 auto;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+.projects_list img {
+    height: 40%;
+    width: 40%;
+}
+
+.tile {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tile_images {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.text{
+    margin: 10px;
+}
+
+
+
+
+.float {
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
+    45% {
+        box-shadow: 0 25px 15px 0 rgba(0,0,0,0.2);
+        transform: translatey(-20px);
+    }
+    85% {
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
+}
+
+
+
+
 @media screen and (max-width: 860px) {
     #mode {
         height: 3.5%;
@@ -70,31 +205,47 @@ nav a {
     }
 
 
-    header {
-        max-width: 100%;
-    }
-
     nav li {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     #about_first p{
         font-size: 3.5vw;
     }
 
-    #about_first h2 {
-        font-size: 6vw;
+    p {
+        font-size: 3.4vw;
+    }
+
+     h2 {
+        font-size: 6.5vw;
         text-align: center;
     }
 
+
+
     header h1 {
-        font-size: 11vw;
-    }
-    header h2 {
         font-size: 10vw;
     }
+    header h2 {
+        font-size: 9vw;
+    }
     header h3 {
-        font-size: 8vw;
+        font-size: 7.5vw;
+    }
+
+    #skills_container{
+        display: block;
+    }
+
+
+     h3 {
+        font-size: 4.5vw;
+    }
+
+
+    .projects_list{
+        display: block;
     }
 
 
@@ -124,29 +275,15 @@ nav a {
     to { border-color: #2c2c2c; }
 }
 
-#about_first {
-    max-width: 100%;
-    padding: 30px;
-    background-color: rgba(106, 153, 166, 0.8);
-}
+
 
 .dark-mode-body {
     background-image: url("dark_mode.png");
     color: #EAEAEA;
 }
 
-#inside_about_second {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-#about_second {
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.50);
 
-}
 
-#about_second p {
-    font-size: 3.5vw;
-}
+
+
