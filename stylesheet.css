@@ -89,12 +89,12 @@ nav a:hover {
 
 
 #mode{
-    width: 100%;
+    width: 120%;
     transition: all 0.5s ease;
 }
 
 #mode:hover{
-    width: 120%;
+    width: 140%;
     cursor: pointer;
 }
 
@@ -108,7 +108,7 @@ nav a:hover {
     border-right: .10em solid #2c2c2c;
     white-space: nowrap;
     animation:
-            typing 2.6s steps(20, end) 0.3s forwards,
+            typing 2.1s steps(20, end) 0.3s forwards,
             blink .8s infinite;
     width: 0;
 }
