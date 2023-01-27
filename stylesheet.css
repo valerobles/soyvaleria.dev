@@ -1,11 +1,11 @@
 /* Mobile first approach */
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap');
 
 
 body {
     background-image: url("light_mode_.png");
     background-size: cover;
-    font-family: 'Red Hat Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 2.5vw;
     color: #3E3E3E;
     margin: 0;
@@ -46,7 +46,8 @@ h2 {
 }
 
 p {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
+    font-weight: 300;
 }
 
 nav ul {
@@ -263,6 +264,7 @@ nav a:hover {
 #gallery .text{
     padding: 10px;
     text-align: left;
+
 }
 
 
@@ -297,6 +299,10 @@ li > h2 {
 
 #text h2 {
     font-size: 2.5vw;
+}
+
+#gallery p {
+    font-size: 1.2vw;
 }
 
 .tile_images_{
