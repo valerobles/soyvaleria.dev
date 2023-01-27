@@ -1,6 +1,7 @@
 /* Mobile first approach */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400&display=swap');
 
+
 body {
     background-image: url("light_mode_.png");
     background-size: cover;
