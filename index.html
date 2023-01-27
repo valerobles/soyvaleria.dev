@@ -265,6 +265,37 @@
 
 
             </li>
+            <li class="projects">
+                <h3>Portfolio</h3>
+                <br>
+                <div class="gallery_tile">
+                    <div class="tile_images_">
+                        <img src="deezer.png"/>
+                        <img src="deezer_2.png">
+                    </div>
+                    <div>
+                        <img src="space_invaders.png" style="height: 55%; width: 55%; margin-bottom: 7px"/>
+                        <img src="space_invaders_2.png" style="height: 55%;width: 55%"/>
+                    </div>
+                    <div class="text">
+                        <p>This music app allows users to search and play music,
+                            create a favorites list and discover new songs and artists. It features a user-friendly interface
+                            and a search function for easy access to a wide range of music. Additionally, it has a favorites list feature for
+                            convenient access to preferred songs and artists. The app is designed for a seamless experience</p>
+
+                        <h4>Tech Stack:</h4>
+                        <p>Kotlin Jetpack Compose</p>
+                        <p>Deezer API</p>
+                        <a href="https://github.com/valerobles/deezer_app" ><img src="github-mark.png" class="github"> </a>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </li>
         </ul>
 
 
@@ -351,10 +382,16 @@
 <script>
     const introductionText = ["My name is", "Me llamo", "Mein Name ist", "Mon nom est","我的名字是"];
     let index = 0;
-    setInterval(myTimer, 2800);
+    let intro = document.getElementById("intro");
+    setInterval(myTimer, 3500);
     function myTimer() {
-        document.getElementById("intro").innerHTML = introductionText[index];
+        intro.classList.add("fade-transition");
+        intro.style.opacity = 1;
+        intro.innerHTML = introductionText[index];
         index = (index + 1) % introductionText.length;
+        setTimeout(() => {
+            intro.style.opacity = 0;
+        }, 3000);
     }
 </script>
 
