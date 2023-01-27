@@ -190,6 +190,10 @@ nav a:hover {
     background-color: rgba(201, 158, 158, 0.87);
 }
 
+#skills p {
+    font-size: 1.5vw;
+}
+
 .float {
     box-sizing: border-box;
     overflow: hidden;
@@ -554,6 +558,11 @@ h4 {
         padding: 15px;
         width:100%;
     }
+
+    #skills p {
+        font-size: 3.2vw;
+    }
+
 
     /* */
 
