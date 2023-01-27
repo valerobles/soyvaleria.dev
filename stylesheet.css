@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400&display=swap');
 
 body {
-    background-image: url("light_mode.png");
+    background-image: url("light_mode_.png");
     background-size: cover;
     font-family: 'Red Hat Mono', monospace;
     font-size: 2.5vw;
@@ -592,6 +592,6 @@ h4 {
 
 
 .dark-mode-body {
-    background-image: url("dark_mode.png");
+    background-image: url("dark_mode_.png");
     color: #EAEAEA;
 }
