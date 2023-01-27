@@ -101,7 +101,7 @@ nav a:hover {
     border-right: .10em solid #2c2c2c;
     white-space: nowrap;
     animation:
-            typing 2s steps(20, end) forwards,
+            typing 3s steps(20, end) forwards,
             blink .8s infinite;
     width: 0;
 }
