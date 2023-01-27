@@ -82,14 +82,12 @@ nav a:hover {
 
 
 #mode{
-    height: 2.5%;
-    width: 2.5%;
+    width: 100%;
     transition: all 0.5s ease;
 }
 
 #mode:hover{
-    height: 3%;
-    width: 3%;
+    width: 120%;
     cursor: pointer;
 }
 
@@ -289,7 +287,7 @@ nav a:hover {
 
 .projects {
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.78);
+    background-color: rgba(255, 255, 255, 0.7);
     height: 55vw;
 
 
@@ -357,7 +355,7 @@ li > h2 {
 }
 
 #projects_big {
-    background-color: rgba(255, 255, 255, 0.78);
+    background-color: rgba(255, 255, 255, 0.7);
     text-align: center;
 }
 
@@ -397,24 +395,27 @@ h4 {
     padding: 15px;
 }
 
+.footer-links{
+    padding-left: 10px;
+}
+
 
 .footer a {
     color: #333;
     font-size: 1.5vw;
     text-decoration: none;
     margin-right: 10px;
-    padding-left: 20px;
 }
 
 .footer img {
-    width: 70%;
+    width: 75%;
     height: auto;
     padding-right: 5px;
     transition: all 0.5s ease;
 }
 
 .footer img:hover{
-    width: 75%;
+    width: 90%;
     cursor: pointer;
 }
 
@@ -442,15 +443,19 @@ h4 {
         width: 45%;
     }
 
+    #mode {
+        width: 80%;
+    }
+    #mode:hover {
+        width: 90%;
+    }
+
 
 }
 
 
 @media screen and (max-width: 900px) {
-    #mode {
-        height: 3.5%;
-        width: 3.5%;
-    }
+
 
     body{
         background-size: auto;
@@ -494,12 +499,12 @@ h4 {
     }
 
     .footer img {
-        width: 30%;
+        width: 25%;
         height: auto;
     }
 
     .footer img:hover{
-        width: 35%;
+        width: 30%;
     }
 
 
@@ -593,8 +598,10 @@ h4 {
     }
 
     #mode {
-        height: 4.2%;
-        width: 4.2%;
+        width: 70%;
+    }
+    #mode:hover {
+        width: 75%;
     }
 
 
@@ -619,6 +626,17 @@ h4 {
 
 
 
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    #mode {
+        width: 45%;
+    }
+    #mode:hover {
+        width: 55%;
+    }
 
 }
 
