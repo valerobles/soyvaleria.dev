@@ -407,14 +407,14 @@ h4 {
 }
 
 .footer img {
-    width: 3%;
+    width: 70%;
     height: auto;
     padding-right: 5px;
     transition: all 0.5s ease;
 }
 
 .footer img:hover{
-    width: 4%;
+    width: 75%;
     cursor: pointer;
 }
 
@@ -433,6 +433,15 @@ h4 {
         border: 10px solid #ffffff;
     }
 
+    .footer img {
+        width: 40%;
+        height: auto;
+    }
+
+    .footer img:hover{
+        width: 45%;
+    }
+
 
 }
 
@@ -446,6 +455,8 @@ h4 {
     body{
         background-size: auto;
     }
+
+
 
 
 
@@ -483,16 +494,15 @@ h4 {
     }
 
     .footer img {
-        width: 4%;
+        width: 30%;
         height: auto;
-        padding-right: 5px;
-        transition: all 0.5s ease;
     }
 
     .footer img:hover{
-        width: 5%;
-        cursor: pointer;
+        width: 35%;
     }
+
+
 
     /* ABOUT */
 
