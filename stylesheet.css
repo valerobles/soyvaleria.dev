@@ -1,6 +1,8 @@
 /* Mobile first approach */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
 
 body {
     background-image: url("light_mode_.png");
@@ -464,6 +466,10 @@ h4 {
 
     #gallery{
         display: none;
+    }
+
+    body{
+        font-family: 'Quicksand', sans-serif;
     }
 
     /* FOOTER */
