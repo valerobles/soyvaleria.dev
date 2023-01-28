@@ -89,12 +89,12 @@ nav a:hover {
 
 
 #mode{
-    width: 120%;
+    width: 100%;
     transition: all 0.5s ease;
 }
 
 #mode:hover{
-    width: 140%;
+    width: 120%;
     cursor: pointer;
 }
 
