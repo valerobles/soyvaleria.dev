@@ -276,7 +276,7 @@ nav a:hover {
 #gallery {
     padding: 1rem;
     display: grid;
-    grid-template-columns: repeat(5, 76vw);
+    grid-template-columns: repeat(5, 69vw);
     grid-column-gap: 2rem;
     overflow: scroll;
     scroll-snap-type: both mandatory;
@@ -292,7 +292,7 @@ nav a:hover {
 .projects {
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.7);
-    height: 58vw;
+    height: 48vw;
 
 
 }
@@ -306,7 +306,7 @@ li > h2 {
 }
 
 #gallery p {
-    font-size: 1.5vw;
+    font-size: 1.1vw;
 }
 
 .tile_images_{
@@ -464,10 +464,6 @@ h4 {
     body{
         background-size: auto;
     }
-
-
-
-
 
 
 }
