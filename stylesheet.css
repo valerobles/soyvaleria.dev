@@ -279,7 +279,7 @@ nav a:hover {
 #gallery {
     padding: 1rem;
     display: grid;
-    grid-template-columns: repeat(5, 69vw);
+    grid-template-columns: repeat(6, 69vw);
     grid-column-gap: 2rem;
     overflow: scroll;
     scroll-snap-type: both mandatory;
