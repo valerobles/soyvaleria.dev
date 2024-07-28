@@ -7,7 +7,7 @@
 
 
 body {
-    background-image: url("light_mode_.png");
+    background-image: url("images/light_mode_.png");
     background-size: cover;
     /*font-family: 'Quicksand', sans-serif;*/
     font-family: 'Ubuntu', sans-serif;
@@ -351,7 +351,7 @@ li > h2 {
 }
 
 .text p {
-    padding-right: 10px;
+    padding-right: 20px;
 
 }
 
@@ -633,6 +633,6 @@ h4 {
 
 
 .dark-mode-body {
-    background-image: url("dark_mode_.png");
+    background-image: url("images/dark_mode_.png");
     color: #EAEAEA;
 }
