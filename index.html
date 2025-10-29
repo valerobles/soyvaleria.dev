@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
@@ -7,479 +8,592 @@
     <link href="stylesheet.css" rel="stylesheet">
     <link rel="icon" href="images/me.png">
 </head>
+
 <body>
-<header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li style="width: 50px; align-items: flex-start;"><img src="images/moon.png" alt="mode" id="mode" style="margin-top: 1px"></li>
-        </ul>
-    </nav>
-    <div class="container">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li style="width: 50px; align-items: flex-start;"><img src="images/moon.png" alt="mode" id="mode"
+                        style="margin-top: 1px"></li>
+            </ul>
+        </nav>
+        <div class="container">
             <h1 class="typed-out">"Hello World"</h1>
-    </div>
+        </div>
 
-    <h2 id="intro">My name is</h2>
-    <h2>Valeria</h2>
-    <h3>I am a junior software engineer</h3>
-</header>
+        <h2 id="intro">My name is</h2>
+        <h2>Valeria</h2>
+        <h3>I am a software engineer</h3>
+    </header>
 
-<main>
-    <section id="about">
-        <div id="about_first">
-            <h2>About Me</h2>
-            <p>I'm a Junior Software Engineer, I hold a Bachelor of Science degree in Computer Science from the FHNW in Switzerland,
-                where I minored in Design and Management. My focus lies in backend development, crafting microservices with cloud architecture.
-                Throughout my academic journey, I gained skills across diverse programming languages and technologies, for crafting functional
-                and user-friendly software solutions.
-                I eagerly anticipate putting my expertise to use in a professional capacity, where I strive to evolve and expand my capabilities as a software engineer.</p>
-            <div id="about_second">
-                <div id="inside_about_second">
+    <main>
+        <section id="about">
+            <div id="about_first">
+                <h2>About Me</h2>
+                <p>I'm a Junior Software Engineer, I hold a Bachelor of Science degree in Computer Science from the FHNW
+                    in Switzerland,
+                    where I minored in Design and Management. My focus lies in backend development, crafting
+                    microservices with cloud architecture.
+                    Throughout my academic journey, I gained skills across diverse programming languages and
+                    technologies, for crafting functional
+                    and user-friendly software solutions.
+                    Currently, I am seeking new opportunities to apply my skills and knowledge in the tech industry. I
+                    have been expanding my expertise in blockchain development and fullstack development.
+                    I eagerly anticipate putting my expertise to use in a professional capacity, where I strive to
+                    evolve and expand my capabilities as a software engineer.</p>
+                <div id="about_second">
+                    <div id="inside_about_second">
+                        <p>
+                            As a proud member of the Hispanic community, I bring a rich cultural perspective to
+                            everything I do.
+                            With a passion for diversity and a love for immersing myself in different cultures, I am
+                            always seeking new challenges and opportunities to grow.
+                        </p>
+                        <img src="images/moi_4.png">
+                    </div>
                     <p>
-                        As a proud member of the Hispanic community, I bring a rich cultural perspective to everything I do.
-                        With a passion for diversity and a love for immersing myself in different cultures, I am always seeking new challenges and opportunities to grow.
+                        Currently based in Switzerland, I am open to exploring the world and creating amazing work in
+                        new and diverse environments, let's create something truly unique together.
                     </p>
-                    <img src="images/moi_4.png" >
+
                 </div>
-                <p>
-                    Currently based in Switzerland, I am open to exploring the world and creating amazing work in new and diverse environments.
-                    From the mountains of Switzerland to the beaches of the Caribbean, let's create something truly unique together.
-                </p>
 
             </div>
 
-        </div>
+        </section>
 
-    </section>
-
-    <section id="skills">
-        <h2 style="margin-bottom: 25px"> Skills </h2>
-       <div id="skills_container">
-           <div id="skills_1" class="float">
-               <h3>Proficient knowledge in</h3>
-               <p>Java, Kotlin, Quarkus, Kotlin Jetpack Compose, Figma</p>
-           </div>
-           <div id="skills_2" class="float">
-               <h3>Competent knowledge in</h3>
-               <p>Spring Boot, Motoko, JavaScript, Python, Unity</p>
-           </div>
-           <div id="skills_3" class="float">
-               <h3>Basic knowledge in</h3>
-               <p>Cairo/StarkNet, SQL, Haskell, C# . React, Solidity</p>
-           </div>
-       </div>
+        <section id="skills">
+            <h2 style="margin-bottom: 25px"> Skills </h2>
+            <div id="skills_container">
+                <div id="skills_1" class="float">
+                    <h3>Proficient knowledge in</h3>
+                    <p>Java, Kotlin, Quarkus, React, Figma, Git</p>
+                </div>
+                <div id="skills_2" class="float">
+                    <h3>Competent knowledge in</h3>
+                    <p>Spring Boot, Motoko, JavaScript, Python, Kotlin Jetpack Compose, Unity, Solidity</p>
+                </div>
+                <div id="skills_3" class="float">
+                    <h3>Basic knowledge in</h3>
+                    <p>Cairo/StarkNet, SQL, Haskell </p>
+                </div>
+            </div>
 
 
 
-    </section>
+        </section>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div id="projects_big">
-            <div class="projects_list">
-                <div class="tile">
-                    <h2>Bachelor Thesis: Supply-Chain DApp using DFINITY'S Internet Computer</h2>
-                    <div class="tile_images">
-                        <img src="images/projects/Bachelorarbeit_IC.png"/>
-                    </div>
-                    <div class="text">
-                        <p> In our Bachelor thesis project, we explored the potential advantages of integrating supply chain management tools with blockchain technology.
-                            To demonstrate our hypothesis, we developed a Proof of Concept utilizing <a href="https://internetcomputer.org/">DFINITY's Internet Computer</a> technology tailored to our unique use case.
-                            The DApp functions as a Supply-Chain tool, allowing companies to register as suppliers, add or create nodes in a Supply-Chain, and securely upload and download data on-chain.
-                            The DApp leverages IC’s Internet Identity for user authentication and offers a user experience similar to traditional web applications.
-                        </p>
-                        <div class="bottom_link">
-                            <h2>Tech Stack:</h2>
-                            <p>Motoko</p>
-                            <p>React</p>
-                            <a href="https://github.com/valerobles/supply_chain"><img src="images/github-mark.png" class="github"> </a>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div id="projects_big">
+                <div class="projects_list">
+                    <div class="tile">
+                        <h2>MuseBoard: your inspo dump but make it cute.</h2>
+                        <div class="tile_images">
+                            <img src="images/projects/museboard_trailer.gif" />
+                        </div>
+                        <div class="text">
+                            <p> MuseBoard is a web application + Chrome extension designed to help users collect and
+                                organize their creative inspirations in a visually appealing way from multiple websites
+                                like Pinterest and Unsplash.
+                                Users can create boards, add images, and share their collections with others. The
+                                application aims to provide a seamless and enjoyable user experience, making it easy for
+                                anyone to curate their own digital mood/vision boards.
+                            <div class="bottom_link">
+                                <h2>Tech Stack:</h2>
+                                <p>React</p>
+                                <p>Node.js</p>
+                                <a href="https://museboard.life"
+                                    style="font-size: 1.5vw; color: rgb(203, 148, 247);">Try it yourself here</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="tile">
-                    <h2>Food Buddy App</h2>
-                    <div class="tile_images">
-                        <img src="images/projects/food_buddy_2.png"/>
-                        <img src="images/projects/food_buddy.png"/>
+                    <div class="tile">
+                        <h2>Bachelor Thesis: Supply-Chain DApp using DFINITY'S Internet Computer</h2>
+                        <div class="tile_images">
+                            <img src="images/projects/Bachelorarbeit_IC.png" />
+                        </div>
+                        <div class="text">
+                            <p> In our Bachelor thesis project, we explored the potential advantages of integrating
+                                supply chain management tools with blockchain technology.
+                                To demonstrate our hypothesis, we developed a Proof of Concept utilizing <a
+                                    href="https://internetcomputer.org/">DFINITY's Internet Computer</a> technology
+                                tailored to our unique use case.
+                                The DApp functions as a Supply-Chain tool, allowing companies to register as suppliers,
+                                add or create nodes in a Supply-Chain, and securely upload and download data on-chain.
+                                The DApp leverages IC’s Internet Identity for user authentication and offers a user
+                                experience similar to traditional web applications.
+                            </p>
+                            <div class="bottom_link">
+                                <h2>Tech Stack:</h2>
+                                <p>Motoko</p>
+                                <p>React</p>
+                                <a href="https://github.com/valerobles/supply_chain"><img src="images/github-mark.png"
+                                        class="github"> </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="text">
-                        <p>Food Buddy is an Android app that connects individuals who don't want to eat alone. Create events,
-                            invite others to join, choose who can join and never eat alone again. Perfect for people new to an area or looking to expand their social circle.
-                            User-friendly interface, easy to use and helps make new friends over a shared love for good food. </p>
-                        <div class="bottom_link">
+
+                    <div class="tile">
+                        <h2>Food Buddy App</h2>
+                        <div class="tile_images">
+                            <img src="images/projects/food_buddy_2.png" />
+                            <img src="images/projects/food_buddy.png" />
+                        </div>
+                        <div class="text">
+                            <p>Food Buddy is an Android app that connects individuals who don't want to eat alone.
+                                Create events,
+                                invite others to join, choose who can join and never eat alone again. Perfect for people
+                                new to an area or looking to expand their social circle.
+                                User-friendly interface, easy to use and helps make new friends over a shared love for
+                                good food. </p>
+                            <div class="bottom_link">
+                                <h2>Tech Stack:</h2>
+                                <p>Kotlin Jetpack Compose</p>
+                                <p>MQTT</p>
+                                <a href="https://github.com/valerobles"><img src="images/github-mark.png"
+                                        class="github"> </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="tile">
+                        <h2>Blockchain Based Game with Zero Knowledge Proofs</h2>
+                        <img src="images/projects/blockchain.png" style="height: auto" />
+                        <div class="text">
+                            <p>This project is a blockchain-based game that utilizes StarkNet to help scale dApps on the
+                                Ethereum blockchain.
+                                As a proof of concept, the game features Pokemon NFTs that can fight against each other.
+                            </p>
+                            <p>
+                                By using StarkNet, the game is able to take advantage of the security and immutability
+                                of the Ethereum blockchain while also providing a scalable, cheaper and more efficient
+                                gaming experience.
+                                The game is built on smart contracts and uses NFTs to represent the Pokemon characters,
+                                making each one unique and collectible.
+                                This project is a proof of concept that showcases the potential of layer 2 scaling
+                                solutions and the use of blockchain technology in gaming. </p>
+                            <div class="bottom_link">
+                                <h2>Tech Stack:</h2>
+                                <p>Solidity</p>
+                                <p>StarkNet/Cairo</p>
+                                <p>React</p>
+                                <a href="https://github.com/valerobles/blockchain_based_game"><img
+                                        src="images/github-mark.png" class="github"> </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="tile">
+                        <h2>Space Invaders</h2>
+                        <div>
+                            <img src="images/projects/space_invaders.png"
+                                style="height: 50%; width: 50%;margin-bottom: 7px" />
+                            <img src="images/projects/space_invaders_2.png" style="height: 50%; width: 50%" />
+                        </div>
+                        <div class="text">
+                            <p>This new adaptation of the classic Space Invaders game stays true to its retro roots
+                                while adding a twist to the
+                                final round. Players will feel the nostalgia as they defend their planet from the alien
+                                invasion, using their picked laser cannon to blast their
+                                way through wave after wave of alien ships.</p>
+                            <h2>Tech Stack:</h2>
+                            <p>Processing</p>
+                            <a href="https://github.com/valerobles"><img src="images/github-mark.png" class="github">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="tile">
+                        <h2>Deezer Music App</h2>
+                        <div class="tile_images">
+                            <img src="images/projects/deezer.png" />
+                            <img src="images/projects/deezer_2.png">
+                        </div>
+                        <div class="text">
+                            <p>This music app allows users to search and play music,
+                                create a favorites list and discover new songs and artists. It features a user-friendly
+                                interface
+                                and a search function for easy access to a wide range of music. Additionally, it has a
+                                favorites list feature for
+                                convenient access to preferred songs and artists. The app is designed for a seamless
+                                experience</p>
+
                             <h2>Tech Stack:</h2>
                             <p>Kotlin Jetpack Compose</p>
-                            <p>MQTT</p>
-                            <a href="https://github.com/valerobles"><img src="images/github-mark.png" class="github"> </a>
+                            <p>Deezer API</p>
+                            <a href="https://github.com/valerobles/deezer_app"><img src="images/github-mark.png"
+                                    class="github"> </a>
+
 
                         </div>
                     </div>
+
+                    <div class="tile">
+                        <h2>Portfolio</h2>
+                        <div>
+                            <img src="images/projects/portfolio_mobile_.png" style="width: 35%" />
+                            <img src="images/projects/portfolio_deskt.png" style="width: 55%" />
+                        </div>
+                        <div class="text">
+                            <p>This portfolio website is a representation of my skills, abilities, and personality.
+                                It was created from scratch, providing a unique and personal touch to my online
+                                presence.
+                                The website is fully responsive, optimized for all devices, and was programmed with a
+                                mobile-first approach
+                                to ensure the best user experience, it also includes light and dark mode. This project
+                                was an opportunity for me to also showcase my skills in web development and design,
+                                and I am proud of the result.</p>
+                            <h2>Tech Stack:</h2>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>JavaScript</p>
+                            <a href="https://github.com/valerobles/soyvaleria.dev"><img src="images/github-mark.png"
+                                    class="github"> </a>
+
+
+                        </div>
+                    </div>
+
+
+
+
                 </div>
 
+            </div>
 
-                <div class="tile">
-                    <h2>Blockchain Based Game with Zero Knowledge Proofs</h2>
-                    <img src="images/projects/blockchain.png" style="height: auto"/>
-                    <div class="text">
-                        <p>This project is a blockchain-based game that utilizes StarkNet to help scale dApps on the Ethereum blockchain.
-                            As a proof of concept, the game features Pokemon NFTs that can fight against each other. </p>
-                        <p>
-                            By using StarkNet, the game is able to take advantage of the security and immutability of the Ethereum blockchain while also providing a scalable, cheaper and more efficient gaming experience.
-                            The game is built on smart contracts and uses NFTs to represent the Pokemon characters, making each one unique and collectible.
-                            This project is a proof of concept that showcases the potential of layer 2 scaling solutions and the use of blockchain technology in gaming. </p>
-                        <div class="bottom_link">
-                            <h2>Tech Stack:</h2>
+
+            <ul id="gallery">
+                <li class="projects">
+                    <h3>MuseBoard: your inspo dump but make it cute.</h3>
+                    <br>
+                    <div class="gallery_tile">
+                        <div class="tile_images_">
+                            <img src="images/projects/museboard_trailer.gif" style="height: 150%; width: auto;" />
+                        </div>
+                        <div class="text">
+                            <p> MuseBoard is a web application + Chrome extension designed to help users collect and
+                                organize their creative inspirations in a visually appealing way from multiple websites
+                                like Pinterest and Unsplash.
+                                Users can create boards, add images, and share their collections with others. The
+                                application aims to provide a seamless and enjoyable user experience, making it easy for
+                                anyone to curate their own digital mood/vision boards.</p>
+                            <a href="https://museboard.life" style="font-size: 1.5vw; color: rgb(203, 148, 247);">Try it
+                                yourself here</a>
+                            <h4>Tech Stack:</h4>
+                            <p>React</p>
+                            <p>Node.js</p>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="projects">
+                    <h3>Bachelor Thesis: Supply-Chain DApp using DFINITY'S Internet Computer</h3>
+                    <br>
+                    <div class="gallery_tile">
+                        <div class="tile_images_">
+                            <img src="images/projects/Bachelorarbeit_IC.png" style="height: 80%; width: 80%;" />
+                        </div>
+                        <div class="text">
+                            <p>In our Bachelor thesis project, we explored the potential advantages of integrating
+                                supply chain management tools with blockchain technology.
+                                To demonstrate our hypothesis, we developed a Proof of Concept utilizing <a
+                                    href="https://internetcomputer.org/">DFINITY's Internet Computer</a> technology
+                                tailored to our unique use case.
+                                The DApp functions as a Supply-Chain tool, allowing companies to register as suppliers,
+                                add or create nodes in a Supply-Chain, and securely upload and download data on-chain.
+                                The DApp leverages IC’s Internet Identity for user authentication and offers a user
+                                experience similar to traditional web applications.</p>
+                            <h4>Tech Stack:</h4>
+                            <p>Motoko</p>
+                            <p>React</p>
+                            <a href="https://github.com/valerobles/supply_chain"><img src="images/github-mark.png"
+                                    class="github"> </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects">
+                    <h3>Food Buddy App</h3>
+                    <br>
+                    <div class="gallery_tile">
+                        <div class="tile_images_">
+                            <img src="images/projects/food_buddy_2.png" />
+                            <img src="images/projects/food_buddy.png" />
+                        </div>
+                        <div class="text">
+                            <p>Food Buddy is an Android app that connects individuals who don't want to eat alone.
+                                Create events,
+                                invite others to join, choose who can join and never eat alone again. Perfect for people
+                                new to an area or looking to expand their social circle.
+                                User-friendly interface, easy to use and helps make new friends over a shared love for
+                                good food. </p>
+
+                            <h4>Tech Stack:</h4>
+                            <p>Kotlin Jetpack Compose</p>
+                            <p>MQTT</p>
+                            <a href="https://github.com/valerobles"><img src="images/github-mark.png" class="github">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects">
+                    <h3>Blockchain Based Game with Zero Knowledge Proofs</h3>
+                    <div class="gallery_tile">
+                        <img src="images/projects/blockchain.png" style="width: 20%; height: 20%" />
+                        <div class="text">
+                            <p>This project is a blockchain-based game that utilizes StarkNet to scale the Ethereum
+                                blockchain.
+                                As a proof of concept, the game features Pokemon NFTs that can fight against each other.
+                            </p>
+                            <p>
+                                By using StarkNet, the game is able to take advantage of the security and immutability
+                                of the Ethereum blockchain while also providing a scalable, cheaper and more efficient
+                                gaming experience.
+                                The game is built on smart contracts and uses NFTs to represent the Pokemon characters,
+                                making each one unique and collectible.
+                                This project is a proof of concept that showcases the potential of layer 2 scaling
+                                solutions and the use of blockchain technology in gaming. </p>
+                            <h4>Tech Stack:</h4>
                             <p>Solidity</p>
                             <p>StarkNet/Cairo</p>
                             <p>React</p>
-                            <a href="https://github.com/valerobles/blockchain_based_game"><img src="images/github-mark.png" class="github"> </a>
+                            <a href="https://github.com/valerobles/blockchain_based_game"><img
+                                    src="images/github-mark.png" class="github"> </a>
+
                         </div>
 
                     </div>
-                </div>
 
+                </li>
+                <li class="projects">
+                    <h3>Space Invaders</h3>
+                    <br>
+                    <div class="gallery_tile">
+                        <div>
+                            <img src="images/projects/space_invaders.png"
+                                style="height: 55%; width: 55%; margin-bottom: 7px" />
+                            <img src="images/projects/space_invaders_2.png" style="height: 55%;width: 55%" />
+                        </div>
 
-
-                <div class="tile">
-                    <h2>Space Invaders</h2>
-                    <div>
-                        <img src="images/projects/space_invaders.png" style="height: 50%; width: 50%;margin-bottom: 7px"/>
-                        <img src="images/projects/space_invaders_2.png" style="height: 50%; width: 50%"/>
-                    </div>
-                    <div class="text">
-                        <p>This new adaptation of the classic Space Invaders game stays true to its retro roots while adding a twist to the
-                            final round. Players will feel the nostalgia as they defend their planet from the alien invasion, using their picked laser cannon to blast their
-                            way through wave after wave of alien ships.</p>
-                        <h2>Tech Stack:</h2>
-                        <p>Processing</p>
-                        <a href="https://github.com/valerobles"><img src="images/github-mark.png" class="github"> </a>
-                    </div>
-                </div>
-
-
-                <div class="tile">
-                    <h2>Deezer Music App</h2>
-                    <div class="tile_images">
-                        <img src="images/projects/deezer.png"/>
-                        <img src="images/projects/deezer_2.png">
-                    </div>
-                    <div class="text">
-                        <p>This music app allows users to search and play music,
-                            create a favorites list and discover new songs and artists. It features a user-friendly interface
-                            and a search function for easy access to a wide range of music. Additionally, it has a favorites list feature for
-                            convenient access to preferred songs and artists. The app is designed for a seamless experience</p>
-
-                        <h2>Tech Stack:</h2>
-                        <p>Kotlin Jetpack Compose</p>
-                        <p>Deezer API</p>
-                        <a href="https://github.com/valerobles/deezer_app"><img src="images/github-mark.png" class="github"> </a>
-
-
-                    </div>
-                </div>
-
-                <div class="tile">
-                    <h2>Portfolio</h2>
-                    <div>
-                        <img src="images/projects/portfolio_mobile_.png" style="width: 35%"/>
-                        <img src="images/projects/portfolio_deskt.png" style="width: 55%"/>
-                    </div>
-                    <div class="text">
-                        <p>This portfolio website is a representation of my skills, abilities, and personality.
-                            It was created from scratch, providing a unique and personal touch to my online presence.
-                            The website is fully responsive, optimized for all devices, and was programmed with a mobile-first approach
-                            to ensure the best user experience, it also includes light and dark mode. This project was an opportunity for me to also showcase my skills in web development and design,
-                            and I am proud of the result.</p>
-                        <h2>Tech Stack:</h2>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JavaScript</p>
-                        <a href="https://github.com/valerobles/soyvaleria.dev" ><img src="images/github-mark.png" class="github"> </a>
-
-
-                    </div>
-                </div>
-
-
-
-
-            </div>
-
-        </div>
-
-
-        <ul id="gallery">
-            <li class="projects">
-                <h3>Bachelor Thesis: Supply-Chain DApp using DFINITY'S Internet Computer</h3>
-                <br>
-                <div class="gallery_tile">
-                    <div class="tile_images_">
-                        <img src="images/projects/Bachelorarbeit_IC.png" style="height: 80%; width: 80%;"/>
-                    </div>
-                    <div class="text">
-                        <p>In our Bachelor thesis project, we explored the potential advantages of integrating supply chain management tools with blockchain technology.
-                            To demonstrate our hypothesis, we developed a Proof of Concept utilizing <a href="https://internetcomputer.org/">DFINITY's Internet Computer</a> technology tailored to our unique use case.
-                            The DApp functions as a Supply-Chain tool, allowing companies to register as suppliers, add or create nodes in a Supply-Chain, and securely upload and download data on-chain.
-                            The DApp leverages IC’s Internet Identity for user authentication and offers a user experience similar to traditional web applications.</p>
+                        <div class="text">
+                            <p>This new adaptation of the classic Space Invaders game stays true to its retro roots
+                                while adding a twist to the
+                                final round. Players will feel the nostalgia as they defend their planet from the alien
+                                invasion, using their picked laser cannon to blast their
+                                way through wave after wave of alien ships.</p>
                             <h4>Tech Stack:</h4>
-                            <p>Motoko</p>
-                            <p>React</p>
-                            <a href="https://github.com/valerobles/supply_chain"><img src="images/github-mark.png" class="github"> </a>
+                            <p>Processing</p>
+                            <a href="https://github.com/valerobles"><img src="images/github-mark.png" class="github">
+                            </a>
+                        </div>
+
+
                     </div>
-                </div>
-            </li>
-            <li class="projects">
-                <h3>Food Buddy App</h3>
-                <br>
-                <div class="gallery_tile">
-                    <div class="tile_images_">
-                        <img src="images/projects/food_buddy_2.png"/>
-                        <img src="images/projects/food_buddy.png"/>
-                    </div>
-                    <div class="text">
-                        <p>Food Buddy is an Android app that connects individuals who don't want to eat alone. Create events,
-                            invite others to join, choose who can join and never eat alone again. Perfect for people new to an area or looking to expand their social circle.
-                            User-friendly interface, easy to use and helps make new friends over a shared love for good food. </p>
+
+                </li>
+                <li class="projects">
+                    <h3>Deezer Music App</h3>
+                    <br>
+                    <div class="gallery_tile">
+                        <div class="tile_images_">
+                            <img src="images/projects/deezer.png" />
+                            <img src="images/projects/deezer_2.png">
+                        </div>
+                        <div class="text">
+                            <p>This music app allows users to search and play music,
+                                create a favorites list and discover new songs and artists. It features a user-friendly
+                                interface
+                                and a search function for easy access to a wide range of music. Additionally, it has a
+                                favorites list feature for
+                                convenient access to preferred songs and artists. The app is designed for a seamless
+                                experience</p>
 
                             <h4>Tech Stack:</h4>
                             <p>Kotlin Jetpack Compose</p>
-                            <p>MQTT</p>
-                            <a href="https://github.com/valerobles"><img src="images/github-mark.png" class="github"> </a>
-                    </div>
-                </div>
-            </li>
-            <li class="projects">
-                <h3>Blockchain Based Game with Zero Knowledge Proofs</h3>
-                <div class="gallery_tile">
-                    <img src="images/projects/blockchain.png" style="width: 20%; height: 20%" />
-                    <div class="text">
-                        <p>This project is a blockchain-based game that utilizes StarkNet to scale the Ethereum blockchain.
-                            As a proof of concept, the game features Pokemon NFTs that can fight against each other. </p>
-                        <p>
-                            By using StarkNet, the game is able to take advantage of the security and immutability of the Ethereum blockchain while also providing a scalable, cheaper and more efficient gaming experience.
-                            The game is built on smart contracts and uses NFTs to represent the Pokemon characters, making each one unique and collectible.
-                            This project is a proof of concept that showcases the potential of layer 2 scaling solutions and the use of blockchain technology in gaming. </p>
-                        <h4>Tech Stack:</h4>
-                        <p>Solidity</p>
-                        <p>StarkNet/Cairo</p>
-                        <p>React</p>
-                        <a href="https://github.com/valerobles/blockchain_based_game"><img src="images/github-mark.png" class="github"> </a>
-
-                    </div>
-
-                </div>
-
-            </li>
-            <li class="projects">
-                <h3>Space Invaders</h3>
-                <br>
-                <div class="gallery_tile">
-                    <div>
-                        <img src="images/projects/space_invaders.png" style="height: 55%; width: 55%; margin-bottom: 7px"/>
-                        <img src="images/projects/space_invaders_2.png" style="height: 55%;width: 55%"/>
-                    </div>
-
-                    <div class="text">
-                        <p>This new adaptation of the classic Space Invaders game stays true to its retro roots while adding a twist to the
-                            final round. Players will feel the nostalgia as they defend their planet from the alien invasion, using their picked laser cannon to blast their
-                            way through wave after wave of alien ships.</p>
-                        <h4>Tech Stack:</h4>
-                        <p>Processing</p>
-                        <a href="https://github.com/valerobles"><img src="images/github-mark.png" class="github"> </a>
-                    </div>
+                            <p>Deezer API</p>
+                            <a href="https://github.com/valerobles/deezer_app"><img src="images/github-mark.png"
+                                    class="github"> </a>
 
 
-                </div>
-
-            </li>
-            <li class="projects">
-                <h3>Deezer Music App</h3>
-                <br>
-                <div class="gallery_tile">
-                    <div class="tile_images_">
-                        <img src="images/projects/deezer.png"/>
-                        <img src="images/projects/deezer_2.png">
-                    </div>
-                    <div class="text">
-                        <p>This music app allows users to search and play music,
-                            create a favorites list and discover new songs and artists. It features a user-friendly interface
-                            and a search function for easy access to a wide range of music. Additionally, it has a favorites list feature for
-                            convenient access to preferred songs and artists. The app is designed for a seamless experience</p>
-
-                        <h4>Tech Stack:</h4>
-                        <p>Kotlin Jetpack Compose</p>
-                        <p>Deezer API</p>
-                        <a href="https://github.com/valerobles/deezer_app" ><img src="images/github-mark.png" class="github"> </a>
+                        </div>
 
 
                     </div>
 
 
-                </div>
+                </li>
+                <li class="projects">
+                    <h3>Portfolio</h3>
+                    <br>
+                    <div class="gallery_tile">
+                        <div>
+                            <img src="images/projects/portfolio_mobile_.png" style="width: 35%" />
+                            <img src="images/projects/portfolio_deskt.png" style="width: 55%" />
+                        </div>
+                        <div class="text">
+                            <p>This portfolio website is a representation of my skills, abilities, and personality.
+                                It was created from scratch, providing a unique and personal touch to my online
+                                presence.
+                                The website is fully responsive, optimized for all devices, and was programmed with a
+                                mobile-first approach
+                                to ensure the best user experience, it also includes light and dark mode. This project
+                                was an opportunity for me to also showcase my skills in web development and design,
+                                and I am proud of the result.</p>
+                            <h4>Tech Stack:</h4>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>JavaScript</p>
+                            <a href="https://github.com/valerobles/soyvaleria.dev"><img src="images/github-mark.png"
+                                    class="github"> </a>
 
 
-            </li>
-            <li class="projects">
-                <h3>Portfolio</h3>
-                <br>
-                <div class="gallery_tile">
-                    <div>
-                        <img src="images/projects/portfolio_mobile_.png" style="width: 35%"/>
-                        <img src="images/projects/portfolio_deskt.png" style="width: 55%"/>
+                        </div>
+
+
                     </div>
-                    <div class="text">
-                        <p>This portfolio website is a representation of my skills, abilities, and personality.
-                            It was created from scratch, providing a unique and personal touch to my online presence.
-                            The website is fully responsive, optimized for all devices, and was programmed with a mobile-first approach
-                            to ensure the best user experience, it also includes light and dark mode. This project was an opportunity for me to also showcase my skills in web development and design,
-                            and I am proud of the result.</p>
-                        <h4>Tech Stack:</h4>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JavaScript</p>
-                        <a href="https://github.com/valerobles/soyvaleria.dev" ><img src="images/github-mark.png" class="github"> </a>
 
 
-                    </div>
-
-
-                </div>
-
-
-            </li>
-        </ul>
+                </li>
+            </ul>
 
 
 
-    </section>
-    <section id="contact" style="text-align: center; margin-bottom: 5em">
-        <h2>Contact me</h2>
+        </section>
+        <section id="contact" style="text-align: center; margin-bottom: 5em">
+            <h2>Contact me</h2>
 
-                <h3>Want to work together or have any questions?</h3>
+            <h3>Want to work together or have any questions?</h3>
 
-                 <h3><a href="mailto:valeria.roblesgarzon@gmail.com" class="button" >Say hello :)</a></h3>
+            <h3><a href="mailto:valeria.roblesgarzon@gmail.com" class="button">Say hello :)</a></h3>
 
-                <img src="images/me.png" id="emoji">
-
-
-
-    </section>
-
-    <footer class="footer">
-        <div class="footer-links">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </div>
-        <p style="color: #333;">Created by Valeria</p>
-
-            <a href="https://www.linkedin.com/in/valeria-robles-garz%C3%B3n-54b653159/" style="width: 65px"><img src="images/linkedin.png" alt="footer image"></a>
-
-    </footer>
+            <img src="images/me.png" id="emoji">
 
 
 
-</main>
-<script>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p style="color: #333;">Created by Valeria</p>
+
+            <a href="https://www.linkedin.com/in/valeria-robles-garz%C3%B3n-54b653159/" style="width: 65px"><img
+                    src="images/linkedin.png" alt="footer image"></a>
+
+        </footer>
 
 
-    let img = document.getElementById("mode");
-    img.addEventListener("click", function(){
 
-        let body = document.body;
-        let section_1 = document.getElementById("about_first");
-        let projects = document.getElementById("projects_big")
-        let gallery = document.querySelectorAll(".projects");
-        let githubIcon = document.querySelectorAll(".github")
+    </main>
+    <script>
 
-        body.classList.toggle("dark-mode-body");
-        if(body.classList.contains("dark-mode-body")){
-            section_1.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
-            projects.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
-            img.src = "brightness.png";
-            for (let i = 0; i < gallery.length; i++) {
+
+        let img = document.getElementById("mode");
+        img.addEventListener("click", function () {
+
+            let body = document.body;
+            let section_1 = document.getElementById("about_first");
+            let projects = document.getElementById("projects_big")
+            let gallery = document.querySelectorAll(".projects");
+            let githubIcon = document.querySelectorAll(".github")
+
+            body.classList.toggle("dark-mode-body");
+            if (body.classList.contains("dark-mode-body")) {
+                section_1.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
+                projects.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
+                img.src = "images/brightness.png";
+                for (let i = 0; i < gallery.length; i++) {
                     gallery[i].style.background = "rgba(0, 0, 0, 0.7)";
 
                 }
 
-            for (let i = 0; i < githubIcon.length; i++) {
-                githubIcon[i].src = "github-mark-white.png";
+                for (let i = 0; i < githubIcon.length; i++) {
+                    githubIcon[i].src = "images/github-mark-white.png";
 
                 }
 
-        } else {
-            section_1.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
-            projects.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
-            img.src = "moon.png";
-            for (let i = 0; i < gallery.length; i++) {
-                gallery[i].style.background = "rgba(255, 255, 255, 0.7)";
+            } else {
+                section_1.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
+                projects.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
+                img.src = "images/moon.png";
+                for (let i = 0; i < gallery.length; i++) {
+                    gallery[i].style.background = "rgba(255, 255, 255, 0.7)";
+
+                }
+
+                for (let i = 0; i < githubIcon.length; i++) {
+                    githubIcon[i].src = "images/github-mark.png";
+
+                }
+
 
             }
 
-            for (let i = 0; i < githubIcon.length; i++) {
-                githubIcon[i].src = "github-mark.png";
-
-            }
 
 
+        });
+
+    </script>
+
+    <script>
+        const introductionText = ["My name is", "Mi nombre es", "Mein Name ist", "Mon nom est", "我的名字是", "Soy"];
+        let index = 0;
+        let intro = document.getElementById("intro");
+        setInterval(myTimer, 3500);
+        function myTimer() {
+            intro.classList.add("fade-transition");
+            intro.style.opacity = 1;
+            intro.innerHTML = introductionText[index];
+            index = (index + 1) % introductionText.length;
+            setTimeout(() => {
+                intro.style.opacity = 0;
+            }, 3200);
         }
+    </script>
 
 
+    <script>
+        const slider = document.querySelector('.gallery');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
 
-    });
+        slider.addEventListener('mousedown', e => {
+            isDown = true;
+            slider.classList.add('active');
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+        });
+        slider.addEventListener('mouseleave', _ => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+        slider.addEventListener('mouseup', _ => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+        slider.addEventListener('mousemove', e => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            const SCROLL_SPEED = 3;
+            const walk = (x - startX) * SCROLL_SPEED;
+            slider.scrollLeft = scrollLeft - walk;
+        });
 
-</script>
-
-<script>
-    const introductionText = ["My name is", "Mi nombre es", "Mein Name ist", "Mon nom est","我的名字是","Soy"];
-    let index = 0;
-    let intro = document.getElementById("intro");
-    setInterval(myTimer, 3500);
-    function myTimer() {
-        intro.classList.add("fade-transition");
-        intro.style.opacity = 1;
-        intro.innerHTML = introductionText[index];
-        index = (index + 1) % introductionText.length;
-        setTimeout(() => {
-            intro.style.opacity = 0;
-        }, 3200);
-    }
-</script>
-
-
-<script>
-    const slider = document.querySelector('.gallery');
-    let isDown = false;
-    let startX;
-    let scrollLeft;
-
-    slider.addEventListener('mousedown', e => {
-        isDown = true;
-        slider.classList.add('active');
-        startX = e.pageX - slider.offsetLeft;
-        scrollLeft = slider.scrollLeft;
-    });
-    slider.addEventListener('mouseleave', _ => {
-        isDown = false;
-        slider.classList.remove('active');
-    });
-    slider.addEventListener('mouseup', _ => {
-        isDown = false;
-        slider.classList.remove('active');
-    });
-    slider.addEventListener('mousemove', e => {
-        if (!isDown) return;
-        e.preventDefault();
-        const x = e.pageX - slider.offsetLeft;
-        const SCROLL_SPEED = 3;
-        const walk = (x - startX) * SCROLL_SPEED;
-        slider.scrollLeft = scrollLeft - walk;
-    });
-
-</script>
+    </script>
 
 
 </body>
